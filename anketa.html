@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Anketa</title>
+</head>
+<body>
+    <h1>Anketa</h1>
+    <form action="index.html" method="POST">
+        <label for="vards">Vārds:</label>
+        <input type="text" id="vards" name="vards"><br><br>
+
+        <label for="uzvards">Uzvārds:</label>
+        <input type="text" id="uzvards" name="uzvards"><br><br>
+
+        <label for="dzimums">Dzimums:</label>
+        <input type="radio" id="dzimums-virietis" name="dzimums" value="virietis">
+        <label for="dzimums-virietis">Vīrietis</label>
+        <input type="radio" id="dzimums-sieviete" name="dzimums" value="sieviete">
+        <label for="dzimums-sieviete">Sieviete</label><br><br>
+
+        <label for="vecums">Vecums:</label>
+        <input type="number" id="vecums" name="vecums" value="33"><br><br>
+
+        <label for="tatuiru_skaitis">Cik tatuīru Jums ir uz ķermeņa?</label>
+        <input type="number" id="tatuiru_skaitis" name="tatuiru_skaitis"><br><br>
+
+        <label for="apmierinatiba">Kādā mērā jūs esat apmierināts ar tatuīra kvalitāti (no 1 līdz 10)?</label>
+        <input type="range" id="apmierinatiba" name="apmierinatiba" min="1" max="10"><br><br>
+
+        <label for="komentars">Papildus komentāri:</label><br>
+        <textarea id="komentars" name="komentars" rows="4" cols="50"></textarea><br><br>
+
+        <label for="atsutit">Atzīmēt, ja jūs vēlētos saņemt no mums ziņas</label>
+        <input type="checkbox" id="atsutit" name="atsutit" value="ja">
+        <label for="atsutit">Jā</label><br><br>
+
+        <input type="submit" value="Nosūtīt anketu">
+    </form>
+</body>
+</html>
