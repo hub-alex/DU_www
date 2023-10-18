@@ -1,0 +1,63 @@
+<h2>Formas</h2> <br/>
+<form> <!-- lauka nosaukums un teksta ievada lauks -->
+<fieldset>
+<legend>Personīga info</legend>
+<label for="fname">Jūsu vārds:</label><br/>
+<input type="text" id="fname" name="fname"/><br/>
+<label for="lname">Jūsu uzvārds:</label><br/>
+<input type="text" id="lname" name="lname"/>
+<br/>
+<div> noskaidrojiet, kas ir screen-reader </div>
+</fieldset>
+<hr/>
+<p>Jūsu rīta dzēriena izvēle:</p>
+<input type="radio" id="coffee" name="fav_drink" value="kafija">
+<label for="coffee">kafija</label><br/>
+<input type="radio" id="tea" name="fav_drink" value="tēja">
+<label for="tea">tēja</label><br/>
+<input type="radio" id="juice" name="fav_drink" value="sula">
+<label for="juice">sula</label>
+<br/>
+<hr/>
+<p>Jūsu brokastis:</p>
+<input type="checkbox" id="brokastis1" name="brokastis1" value="maize">
+<label for="brokastis1"> sviestmaize</label><br/>
+<input type="checkbox" id="brokastis2" name="brokastis2" value="putra">
+<label for="brokastis2"> auzu pārslu putra</label><br/>
+<input type="checkbox" id="brokastis3" name="brokastis3" value="ola">
+<label for="brokastis3"> cepta ola</label>
+<br/> <br/>
+
+<label for="vards">Vārds:</label><br/>
+<input type="text" id="vards" name="vards" value="Students"><br/>
+
+<label for="uzvards">Uzvārds:</label><br/>
+<input type="text" id="uzvards" name="uzvards" value="Visgudrais"><br/><br/>
+<input type="submit" value="Nosūtīt!"/>
+<input type="button" value="te ir poga"/>
+</form>
+<br/> <br/>
+
+<fieldset>
+<legend>Krāsu tēma</legend>
+<form>
+<label for="favcolor">Izvēlieties krāsu:</label>
+<input type="color" id="favcolor" name="favcolor" value="#78d398">
+<input type="submit" value="Apstiprināt!">
+</form>
+
+<p><strong>Piezīme:</strong> type="color" nestrādā Internet Explorer 11 vai Safari 9.1 (vai vecākās
+versijās).</p>
+</fieldset> <br/> <br/>
+
+<form>
+<input list="countries" name="countries"/>
+<datalist id="countries">
+<option value="Portugāle"/>
+<option value="Čīle"/>
+<option value="Austrālija"/>
+<option value="Japāna"/>
+<option value="Grenlande"/>
+</datalist><br/>
+<input type="button" value="Paldies!"/>
+</form><br/> <br/>
